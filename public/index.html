@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="./index.css">
+<body>
+  <div id="presentation">
+    <div class="container">
+      <a href="https://github.com/vzwork/data_science_project_2" class="githubLink">Github</a>
+      <div class="section">
+        <div class="header">Results</div>
+        <p>
+          Prediction for the year 2017 <br>
+          Income increased by 24%
+        </p>
+      </div>
+      <div class="section">
+        <div class="header">
+          Model for Hotel Business
+        </div>
+        <p>
+          Some hotel company is experiencing losses. <br>
+          Guests reserve their rooms, but don't show up. <br>
+          We need to make a model that will predict whether a person will show up or not. <br> 
+          And then the company can ask for a deposit before reservation.
+        </p>
+      </div>
+      <div class="section">
+        <div class="header">
+          Data
+        </div>
+        <p>
+          2 datasets <br>
+          30k and 60k rows <br>
+          and 26 columns - features
+        </p>
+      </div>
+      <div class="section">
+        <div class="header">
+          Preparing Data
+        </div>
+        <p>
+          Removing outliers <br>
+          Encoding categorical data <br>
+          Target feature is wheather a guest shows up <br>
+        </p>
+      </div>
+      <div class="section">
+        <div class="header">Model Tuning</div>
+        <p>
+          Selected recall_score for accurate selection of guests <br>
+          The best score was provided by DecisionTreeClassifier 0.54<br>
+        </p>
+      </div>
+      <div class="section">
+        <div class="header">Features Analysis</div>
+        <p>
+          from testing LogisticRegression <br>
+          find importance "mode.coef_" <br>
+        </p>
+        <img src="./features.png" alt="Features">
+      </div>
+      <div class="section">
+        <div class="header">Features</div>
+        <p>
+          lead_time - if reservation is recent, more likely to cancel <br>
+          previous_cancellations - more then likely to cancel <br>
+          previous_bookings_not_canceled - more then likely to cancel <br>
+        </p>
+      </div>
+      <div class="section">
+        <div class="header">Results</div>
+        <p>
+          Prediction for the year 2017 <br>
+          Income increased by 24%
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

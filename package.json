@@ -1,0 +1,23 @@
+{
+  "name": "data_science_project_2_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vzwork/data_science_project_2_website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vzwork/data_science_project_2_website/issues"
+  },
+  "homepage": "https://github.com/vzwork/data_science_project_2_website#readme",
+  "dependencies": {
+    "firebase": "^9.8.4",
+    "firebase-cli": "^1.2.0"
+  }
+}

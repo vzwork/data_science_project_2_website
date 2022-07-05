@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  color: #fff;
+  font-family: "Comfortaa";
+}
+
+#presentation {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: #333;
+  width: 800px;
+}
+
+.section {
+  padding: 1rem;
+}
+
+.header {
+  font-size: 2rem;
+}
+
+.githubLink {
+  padding-top: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+}
